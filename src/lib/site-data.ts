@@ -44,10 +44,10 @@ export const services = [
 ] as const;
 
 export const gallery = [
-  { id: "gal-1", label: "Detalle de degradado" },
-  { id: "gal-2", label: "Navaja clásica" },
-  { id: "gal-3", label: "Brocha de afeitar" },
-  { id: "gal-4", label: "Ambiente del estudio" },
+  { id: "gal-1", label: "Detalle de degradado", image: "/service-barber-1.png" },
+  { id: "gal-2", label: "Navaja clásica", image: "/service-barber-2.png" },
+  { id: "gal-3", label: "Brocha de afeitar", image: "/service-barber-3.png" },
+  { id: "gal-4", label: "Ambiente del estudio", image: "/service-barber-4.png" },
 ];
 
 export const prices = [
